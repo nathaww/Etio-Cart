@@ -1,0 +1,51 @@
+.workflow
+{
+  padding: 30px;
+  width: 100%;
+}
+.transaction
+  {
+    justify-content: center;
+    background-color: transparent;
+    max-width: 1000px;
+    margin: 50px auto;
+    position: relative;
+    padding: 20px 60px;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 30px;
+  }
+  .pdf
+  {
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin-left: 750px;
+    color: white;
+    background-color: #00989d;
+    border-radius: 20px;
+
+  }
+  .excel
+  {
+    outline: none;
+    width: 80px;
+    height: 40px;
+    color: #00989d;
+    background-color: transparent;
+    border: 1px solid #00989d;
+    border-radius: 20px;
+
+  }
+  .pdf:hover
+  {
+    color: #00989d;
+    background-color: transparent;
+    border: 1px solid #00989d;
+  }
+  .excel:hover
+  {
+    color: white;
+    background-color: #00989d;
+  }

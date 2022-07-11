@@ -1,0 +1,47 @@
+  .setting {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .setting .cont{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      width: 400px;
+      height: 400px;
+      box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+      padding: 30px 20px;
+      border-radius: 10px;
+  }
+  
+  .setting .btn-create-acc,
+  .setting .btn-setting-reset {
+      display: inline-block;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 16px;
+      padding: 20px 16px;
+      width: 200px;
+      height: 100px;
+      border: none;
+      border-radius: 50;
+      margin: 30px 0px;
+      background-color: var(--main-text-color) !important;
+  }
+  .setting .fas
+  {
+      color: #D9DDE0;
+  }
+  .setting .btn-create-acc:hover,
+  .setting .btn-setting-reset:hover {
+      background: white !important;
+      color: #00989d !important;
+  }
